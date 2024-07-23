@@ -18,7 +18,7 @@
  ```
 Need to restart VS Code and the Terminal.
 
-# Installs fnm (Fast Node Manager) on Windows
+# Installs fnm (Fast Node Manager) on Windows 
 winget install Schniz.fnm
 # Shell Setup
 Add the following to the end of your profile file:
