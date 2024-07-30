@@ -44,6 +44,7 @@ npm -v # should print `10.7.0`
 npm i
 # Update Dataform Core
 npm i -g @dataform/core@^2.8.2
+<!-- npm i -g @dataform/cli@^3.0.0-beta.4 -->
 
 # Create Credentials file
 - Create Credentials file with command *dataform init-creds*
