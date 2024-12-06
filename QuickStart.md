@@ -9,11 +9,16 @@
     "editor.renderWhitespace": "all",
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
+          "path": [
+            "${env:windir}\\Sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "${env:windir}\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+          ],
           "source": "PowerShell",
           "icon": "terminal-powershell",
           "args": ["-ExecutionPolicy", "Bypass"]
         }
       },
+      "diffEditor.renderSideBySide": true,
 }
  ```
 Need to restart VS Code and the Terminal.
@@ -43,7 +48,9 @@ npm -v # should print `10.7.0`
 # Update Dataform
 npm i
 # Update Dataform Core
+npm i -g @dataform/cli@^3.0.0-beta.4
 npm i -g @dataform/core@^2.8.2
+npm i -g @dataform/core@^3.0.0-beta.4
 <!-- npm i -g @dataform/cli@^3.0.0-beta.4 -->
 
 # Create Credentials file
